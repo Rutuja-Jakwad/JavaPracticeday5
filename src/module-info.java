@@ -1,0 +1,2 @@
+module JavapracticeDay5 {
+}
