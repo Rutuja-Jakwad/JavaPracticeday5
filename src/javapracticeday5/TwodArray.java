@@ -12,18 +12,23 @@ public class TwodArray {
 		int i,j;
 		for(i=0; i<row; i++)
 		{
-			for(j=0 j<column; j++)
+			for(j=0; j<column; j++)
 			{
 				System.out.println("Enter the element of Array");
 				int element = scanner.nextInt();
 				array[i][j] = element;
 			}
 		}
+		for(i=0; i<row; i++)
+		{
+			System.out.println();
+			for(j=0; j<column; j++)
+		
 			{
 				System.out.println(" " +array[i][j]);
 			}
 		}
 		
 	}
-
+}
 
